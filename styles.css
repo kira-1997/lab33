@@ -1,0 +1,143 @@
+nav { 
+    display: flex; 
+    position: sticky;
+    position: fixed;
+    height: 10px;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 135rem;
+    background-color: black;
+}
+
+.list{
+    display: flex;
+    justify-content: right;
+}
+.nav-item  {
+    list-style: none;
+    display: inline-block;
+    color: rgb(252, 248, 248);
+    margin-right: 3rem;
+    font-weight: bold;
+  }
+ 
+
+
+
+.nav-item:first-child{
+   margin-right: 30rem;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 26rem;
+    margin-bottom: 6rem;
+}
+
+.caption {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    display: flex;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    background-color: transparent;
+    flex-wrap: wrap;
+    width: min-content;
+    color: white;
+    margin-right: 24rem;
+    margin-top: 8rem;
+    line-height: 2rem;
+    
+  }
+  p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+  .bt{
+    font-size:medium ;
+    width: 11rem;
+    height: 3.5rem;
+  }
+.tit{
+    color: white;
+    text-align: center;
+
+}
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pic{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+
+}
+.pic1{
+    margin-right: 2rem;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    height: 135rem;
+    background-color: rgb(253, 253, 253);
+
+}
+.im1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
+    margin-top: 3rem;
+  
+}
+.im2{
+    display: flex;
+    justify-content:flex-start ;
+    margin-top:-4rem ;
+    margin-left: 15rem;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 40rem;
+    margin-top: -25rem;
+    width: 25rem;
+       
+}
+.bt1{
+    font-size:medium ;
+    width: 11rem;
+    height: 3.5rem;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+}
+.p1{
+    text-align:justify;
+    text-justify:inter-word;
+    margin-left: 3.5rem;
+}
+.pic2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 12rem;
+    margin-bottom: 3rem; 
+ 
+}h2{
+    text-align: center;
+}
